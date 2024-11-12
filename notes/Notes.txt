@@ -1,0 +1,54 @@
+************** PROJECT *******************
+
+Tech - NodeJs, Express, PostgreSQL
+
+===============================================================
+STEP 1 - initiate a project to create a package.json
+
+npm init -y
+
+STEP 2 - install express web framework for Node.js.
+
+npm i express
+
+STEP 3 - install postgresQL for modules for interfacing with your PostgreSQL database
+
+npm i pg
+
+STEP 4 - Dotenv module loads environment variables from a .env file into process.env
+
+npm i dotenv --save
+
+"start": "npm run dev",
+"dev": "PORT=6102 NODE_ENV=development node server.js"
+Add file environment\development.env
+do configuration in server.js
+
+STEP 5 - Passing multiple environment variable is possible only with "cross-env" module, cross-env is a cross platform
+
+Note - ""dev": "PORT=6102 NODE_ENV=development node server.js"" will not work with window os
+
+npm install cross-env --save-dev
+"start": "npm run dev",
+"dev": "cross-env NODE_ENV=development PORT=6102 node server.js"
+
+
+STEP 6 - Authentication middleware for Express.js that validates JWT bearer access token
+
+npm i express-oauth2-jwt-bearer
+
+
+STEP 7 - CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options
+
+npm i cors
+
+
+STEP 8 - nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application 
+when file changes in the directory are detected
+
+npm install --save-dev nodemon
+
+
+STEP 8 - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment
+
+npm i mongoose

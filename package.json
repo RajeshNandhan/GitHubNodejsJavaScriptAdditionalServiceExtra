@@ -1,0 +1,25 @@
+{
+  "name": "githubnodejsjavascriptpostgreadditionalservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env NODE_ENV=development PORT=6102 DB=POSTGRESQL nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Rajesh Nandhan",
+  "license": "ISC",
+  "description": "RESTful API TEST project with Node.js, Express, and PostgreSQL",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-oauth2-jwt-bearer": "^1.6.0",
+    "mongoose": "^8.7.2",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.7"
+  }
+}

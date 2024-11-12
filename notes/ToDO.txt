@@ -1,0 +1,19 @@
+User ID=postgres;Password=Pa55w0rd2020;Host=localhost;Port=5432;Database=principledatabase;
+
+FOLLOW THE STANDARD FOR RETURN TYPE
+
+REPOSITORY INJECTION IN JAVASCRIPT
+
+INHERITENCE IN FUNCTINAL PROGRAMMING
+
+DOES TYPESCRIPT REQUIRED HEREE?
+
+this.expressApplication.get == this.app.get can this be changed to app.use
+
+what is BIND here?
+appRouteManagerInstance.addGetEndpointToApplication('/api/book', this.getAll.bind(this));
+
+Redux Toolkit Complete Tutorial - to do - optimization
+
+https://www.youtube.com/watch?v=NqzdVN2tyvQ
+2:13

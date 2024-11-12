@@ -1,0 +1,45 @@
+git add .
+
+git status
+
+git commit -m "commit w"
+
+git status
+
+git push origin main
+
+
+
+=========================================================================================
+
+FIRST TIME GIT SOURCE CODE UPDATE
+
+
+Step 1
+
+Create a repository in github.com like "GitHubNodejsJavaScriptVanillaAdditionalService"
+
+Step 2
+
+Copy the empty repository link from github https://github.com/RajeshNandhan/GitHubNodejsJavaScriptVanillaAdditionalService.git
+
+Step 3
+
+Add ".gitignore" file in the project root folder
+Note - "node_module" folder is not required
+
+Step 4
+
+Run the below commands one after another from project root location in command prompt
+
+git init
+
+git add .
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/RajeshNandhan/GitHubNodejsJavaScriptVanillaAdditionalService.git
+
+git push -u origin main
